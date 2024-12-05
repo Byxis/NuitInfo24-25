@@ -53,6 +53,8 @@ input[type="checkbox"]:hover {
   
 input[type="checkbox"]:disabled {
     cursor: not-allowed;
+    background: #111213;
+    border-color: #0e0e0f;
 }
 
 .quiz-container {
@@ -72,6 +74,7 @@ input[type="checkbox"]:disabled {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
+    font-family: 'MinecraftRegular', sans-serif;
   }
   
   .submit-button:hover {
@@ -86,5 +89,6 @@ input[type="checkbox"]:disabled {
   
   .submit-button:disabled {
     cursor: not-allowed;
+    background-color: #0e0e0f;
   }
   
