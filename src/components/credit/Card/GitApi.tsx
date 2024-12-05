@@ -7,7 +7,11 @@ export interface GitHubUser {
 
 export async function GitApi(username: string): Promise<GitHubUser | null> {
   try {
-    const response = await axios.get(`https://api.github.com/users/${username}`);
+    const response = await axios.get(`https://api.github.com/users/${username}`, {
+      headers: {
+        Authorization: `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`
+      }
+    });
     const { name, avatar_url } = response.data;
 
     return { name, avatar_url };
