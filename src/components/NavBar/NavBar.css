@@ -1,0 +1,76 @@
+/* Style global pour la barre de navigation */
+nav {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Dégradé bleu océan */
+    padding: 10px 20px;
+    position: fixed; /* Fixe la nav en haut de la page */
+    top: 0;
+    left: 0;
+    width: 100%; /* Prend toute la largeur de l'écran */
+    z-index: 1000; /* S'assure que la nav est au-dessus du contenu */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3); /* Ligne sous la nav */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour ajouter de la profondeur */
+  }
+  
+  /* Conteneur pour la liste de navigation */
+  nav div {
+    display: flex;
+    justify-content: center; /* Centre les liens horizontalement */
+    align-items: center; /* Centrer verticalement si nécessaire */
+    height: 100%; /* Assure que la nav reste bien centrée */
+  }
+  
+  /* Liste des éléments de navigation */
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style pour chaque élément de la liste */
+  li {
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Style des liens */
+  li a {
+    color: #eaf2f8; /* Blanc argenté clair */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Effet de survol des liens */
+  li a:hover {
+    color: #40e0d0; /* Couleur turquoise de l'océan */
+    transform: scale(1.1); /* Légère agrandissement */
+  }
+  
+  /* Effet actif (lorsque la page est active) */
+  li a.active {
+    color: #00bcd4; /* Bleu plus vif pour l'élément actif */
+    text-decoration: underline;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 600px) {
+    ul {
+      flex-direction: column;
+      gap: 15px;
+      text-align: center;
+    }
+  
+    li a {
+      font-size: 20px;
+    }
+  }
+  
+  /* Ajouter un espace au-dessus du contenu principal pour éviter que le contenu ne soit caché sous la navbar */
+  body {
+    margin-top: 60px; /* Ajuste cette valeur selon la hauteur de ta navbar */
+}
