@@ -1,10 +1,11 @@
-import QuestionInterface from "./ReponseInterface";
+import ReponseInterface from './ReponseInterface';
 
 interface QuizInterface{
     title : string;
     explication? : string;
     desc : string;
-    questions : QuestionInterface[];
+    reponses? : ReponseInterface[];
 }
 
 export default QuizInterface;
+

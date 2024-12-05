@@ -1,6 +1,6 @@
 interface ReponseInterface
 {
-    texte : string;
+    contenu : string;
     isValid : boolean;
 }
 export default ReponseInterface;
