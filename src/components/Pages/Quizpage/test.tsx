@@ -17,3 +17,5 @@ class GlobalScore{
         );
     }
 }
+
+export default GlobalScore

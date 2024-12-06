@@ -1,6 +1,6 @@
+import GetQuestion from '../Quizpage/questions';
+import Quiz from '../Quizpage/Quiz';
 import './App.css'
-import GetQuestion from '../Quiz/questions';
-import Quiz from '../Quiz/Quiz';
 
 function App() {
 
