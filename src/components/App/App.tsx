@@ -1,8 +1,10 @@
 import { Route, HashRouter as Router, Routes } from 'react-router-dom'
 import './App.css'
-import Home from '../Homepage/Home'
 import Layout from './Layout'
 import Test from '../Fichier de test/test'
+import Footer from '../Footer/Footer'
+import Home from './Homepage/Home'
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         </Route>
       </Routes>
     </Router>
+    <Footer/>
     </>
   )
 }

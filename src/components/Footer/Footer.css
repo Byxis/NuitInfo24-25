@@ -1,0 +1,15 @@
+footer {
+    width: 100%; 
+    position:relative;
+    left: 0;
+    right: 0;
+    color: #333; 
+    max-width: 500px;
+
+}   
+#footerTextWrapper{
+    background-color: #f8f8f8;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
