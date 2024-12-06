@@ -3,18 +3,6 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  --background-color: #ffffff; 
-  --text-color: #000000;
-  }
-  
-.dark-mode {
-  --background-color: #121212;
-  --text-color: #ffffff;
-}
-
-body {
-  background-color: var(--background-color); 
-  color: var(--text-color); 
 }
 
 .logo {
@@ -52,3 +40,4 @@ body {
 .read-the-docs {
   color: #888;
 }
+

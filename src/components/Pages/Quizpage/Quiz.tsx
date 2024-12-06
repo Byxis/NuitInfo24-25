@@ -9,15 +9,16 @@ function Quiz(quizInterface: QuizInterface)
     const [score, setScore] = useState(0);
     const [isButtonDisabled, setIsButtonDisabled] = useState(false);
 
-    const identidiant = "hidden-"+quizInterface.title;
+    const identifiant = "hidden-"+quizInterface.title;
 
     var answers = null;
     if(quizInterface.reponses)
     {
         answers = quizInterface.reponses.map((answer : any, index : any) => (
-            <li key={index}>
-            <label>
+            <li className="quiz-li" key={index}>
+            <label className="quiz-label" >
                 <input
+                 className="quiz-i" 
                 type="checkbox"
                 ref={(el) => (checkboxRefs.current[index] = el)}
                 />
@@ -49,7 +50,7 @@ function Quiz(quizInterface: QuizInterface)
             scoreElement.textContent = `Score : ${score}`;
         }
 
-        const explicationsElement = document.getElementById(identidiant);
+        const explicationsElement = document.getElementById(identifiant);
         if (explicationsElement)
         {
             explicationsElement.classList.remove('hidden');;
@@ -71,21 +72,21 @@ function Quiz(quizInterface: QuizInterface)
     return (
         <div className="quiz-container">
             
-            <h2>{quizInterface.title}</h2>
-            <p>{quizInterface.desc}</p>
+            <h2 className="quiz-h2">{quizInterface.title}</h2>
+            <p className="quiz-p">{quizInterface.desc}</p>
             <ul className="no-bullets">
                 {answers}
             </ul>
-            <div id={identidiant} className='hidden'>
-                <h3 className='explication'>Explications :</h3>
-                <p className='explication'>{quizInterface.explication}</p>
+            <div id={identifiant} className='hidden'>
+                <h3 className='quiz-h3 explication'>Explications :</h3>
+                <p className='quiz-p explication'>{quizInterface.explication}</p>
             </div>  
             <button onClick={clickHandler} 
                 className="submit-button" 
                 disabled={isButtonDisabled}>
                     Valider
             </button>
-            <p>Score: {score}</p>
+            <p className="quiz-p">Score: {score}</p>
         </div>
     );
 }

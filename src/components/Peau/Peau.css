@@ -3,18 +3,6 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  --background-color: #ffffff; 
-  --text-color: #000000;
-  }
-  
-.dark-mode {
-  --background-color: #121212;
-  --text-color: #ffffff;
-}
-
-body {
-  background-color: var(--background-color); 
-  color: var(--text-color); 
 }
 
 .logo {
@@ -51,4 +39,18 @@ body {
 
 .read-the-docs {
   color: #888;
+}
+#PeauImgWrapper {
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Maintains aspect ratio */
+  display: flex; /* Centers content if needed */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensures the image doesn't overflow */
+}
+
+.Peau {
+  width: 100%; /* Makes the image take the full width of the div */
+  height: auto; /* Keeps the aspect ratio intact */
+  object-fit: contain; /* Ensures the image scales to fit within its container */
 }
