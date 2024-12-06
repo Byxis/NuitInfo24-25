@@ -18,7 +18,10 @@ export const ClassicCard: React.FC<CardProps> = ({ name, website, image, desc })
 export const ClassicCardSquare: React.FC<CardProps> = ({ name, website, image, desc }) => {
     return (
       <div className="card">
+        <div className="image-container">
         <img src={image} alt={`Logo de ${name}`} style={{ width: '150px', borderRadius: '10%' }} />
+
+        </div>
         <h3><a href={website}>{name}</a></h3>
         <h2>{desc}</h2>
       </div>

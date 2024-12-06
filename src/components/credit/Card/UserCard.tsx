@@ -23,7 +23,9 @@ const UserCard: React.FC<CardProps> = ({ username }) => {
 
   return (
     <div className="card">
-      <img src={user.avatar_url} alt={`${user.name}'s avatar`} style={{ width: '120px', borderRadius: '50%' }} />
+      <div className="image-container">
+      <img src={user.avatar_url} alt={`${user.name}'s avatar`} style={{ width: '120px', borderRadius: '50%' }} className="hover-image" />
+      </div>
       <h3><a href={`https://github.com/${username}`}>@{username}</a></h3>
       <h2>{user.name || 'Nom non disponible'}</h2>
     </div>

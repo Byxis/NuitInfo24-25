@@ -28,14 +28,8 @@ function Credit() {
         name="Polytech Montpellier" website="https://polytech.umontpellier.fr/" image="https://www.polytech.umontpellier.fr/images/logo_entete.png" 
         desc="Notre organisateur local de la nuit de l'info"></ClassicCardSquare>
       </div>
-
-      <div className="Statut">
-        <h1>Statut du Projet</h1>
-        
-      </div>
-
+      
       <Slots />
-
       </div>
     </div>
     
