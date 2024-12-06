@@ -1,5 +1,4 @@
 import QuizInterface from './Interface/QuizInterface.tsx';
-import ReponseInterface from './Interface/ReponseInterface.tsx';
 
 const list = 
 [
