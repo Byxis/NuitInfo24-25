@@ -10,15 +10,15 @@ import VaisseauxSanguins from '../VaisseauxSanguins/VaisseauxSanguins'
 
 const Grid = () => {
   return (
-    <div className="grid-container">
-        <div className="grid-item item-1"> <Coeur/> </div>
-        <div className="grid-item item-2"> <Poumons/> </div>
-        <div className="grid-item item-3"> <SystemeDigestif/> </div>
-        <div className="grid-item item-4"> <SystemeImmunitaire/> </div>
-        <div className="grid-item item-5"> <Peau/> </div>
-        <div className="grid-item item-6"> <Reins/> </div>
-        <div className="grid-item item-7"> <Sang/> </div>
-        <div className="grid-item item-8"> <VaisseauxSanguins/> </div>
+    <div id="grid-wrapper">
+        <div className="grid-item" id="Coeur"> <Coeur /> </div>
+        <div className="grid-item" id="Poumons"> <Poumons /> </div>
+        <div className="grid-item" id="SystemeDigestif"> <SystemeDigestif /> </div>
+        <div className="grid-item" id="SystemeImmunitaire"> <SystemeImmunitaire /> </div>
+        <div className="grid-item" id="Peau"> <Peau /> </div>
+        <div className="grid-item" id="Reins"> <Reins /> </div>
+        <div className="grid-item" id="Sang"> <Sang /> </div>
+        <div className="grid-item" id="VaisseauxSanguins"> <VaisseauxSanguins /> </div>
     </div>
   );
 };

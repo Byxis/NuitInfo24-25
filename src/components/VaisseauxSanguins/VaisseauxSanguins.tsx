@@ -7,10 +7,9 @@ function VaisseauxSanguins() {
     <>
       <div>
           <Link to="/RivieresFleuves">
-            <img src={"../src/assets/VaisseauxSanguins.svg"} className="VaisseauxSanguins" />
+          Vaisseaux Sanguins
           </Link>
       </div>
-      <h1>VaisseauxSanguins</h1>   
     </>
   )
 }

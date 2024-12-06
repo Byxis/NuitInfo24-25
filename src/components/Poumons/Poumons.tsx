@@ -7,10 +7,9 @@ function Poumons() {
     <>
       <div>
           <Link to="/Plancton">
-            <img src={"../src/assets/Poumons.svg"} className="Poumons" />
+          Poumons
           </Link>
       </div>
-      <h1>Poumons</h1>    
     </>
   )
 }

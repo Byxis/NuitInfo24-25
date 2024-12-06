@@ -1,11 +1,11 @@
-.grid-container {
+#grid-wrapper {
+    width: 100%;
     display: grid ;
     gap: 10px; 
     padding: 20px;
     background-color: #f8f8f8;
-    grid-template-rows: auto;
-    grid-template-columns: auto; 
-
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 250px);
   }
   
   .grid-item {
@@ -16,4 +16,48 @@
     border-radius: 8px;
     font-size: 1.2rem;
     font-weight: bold;
+  }
+
+  #Coeur {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+    background-color: #af4c4c;
+  }
+  
+  #Poumons {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+
+  }
+
+  #SystemeImmunitaire {
+    background-color: #3e1111;
+    grid-column: -3 / -2;
+    grid-row: 1 / 2;
+  }
+
+  #SystemeDigestif {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+  }
+
+  #Peau {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+  }
+
+  #Sang {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  #Reins {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+  }
+
+  #VaisseauxSanguins {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
   }

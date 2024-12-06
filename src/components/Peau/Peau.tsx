@@ -7,10 +7,9 @@ function Peau() {
     <>
       <div>
           <Link to="/Surface">
-            <img src={"../src/assets/Peau.svg"} className="Peau" />
+          Peau
           </Link>
       </div>
-      <h1>Peau</h1>    
     </>
   )
 }

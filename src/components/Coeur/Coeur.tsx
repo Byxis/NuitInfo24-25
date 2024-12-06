@@ -7,10 +7,9 @@ function Coeur() {
     <>
       <div>
           <Link to="/CourantsOceaniques">
-            <img src={"../src/assets/Coeur.svg"} className="Coeur" />
+              Coeur
           </Link>
       </div>
-      <h1>Coeur</h1>
     </>
   )
 }

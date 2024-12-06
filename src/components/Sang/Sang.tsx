@@ -7,10 +7,9 @@ function Sang() {
     <>
       <div>
           <Link to="/Eau">
-            <img src={"../src/assets/Sang.svg"} className="Sang" />
+          Sang
           </Link>
       </div>
-      <h1>Sang</h1>   
     </>
   )
 }

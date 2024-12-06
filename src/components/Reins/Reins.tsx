@@ -7,10 +7,9 @@ function Reins() {
     <>
       <div>
           <Link to="/Mangroves">
-            <img src={"../src/assets/Reins.svg"} className="Reins" />
+          Reins
           </Link>
       </div>
-      <h1>Reins</h1>     
     </>
   )
 }
