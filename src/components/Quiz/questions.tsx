@@ -24,7 +24,8 @@ const q4Data: ReponseInterface = {
 const q1: QuizInterface = {
     title: 'La question évidente',
     desc: 'Cochez les réponses qui vous semble juste eeeee  eeeee  eeeee  eeeee  eeeee  eeeee  eeeee  eeeee  eeeee  eeeee  eeeee  eeeee eeeeeee',
-    reponses: [q1Data, q2Data, q3Data, q4Data]
+    reponses: [q1Data, q2Data, q3Data, q4Data],
+    explication: "C'est une question évidente, la réponse est dans la question",
 };
 
 const list = [q1];

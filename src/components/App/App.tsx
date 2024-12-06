@@ -6,7 +6,13 @@ function App() {
 
   return (
     <>
-    <Quiz {...GetQuestion(0)} />
+      <div>
+        <div>
+          <p id="score">Score : 0</p>
+        </div>
+        <Quiz {...GetQuestion(0)} />
+        <Quiz {...GetQuestion(0)} />
+      </div>
     </>
   );
 }
