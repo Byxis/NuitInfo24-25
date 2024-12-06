@@ -1,19 +1,28 @@
 .footer-container{
     padding: 3rem;
     color: #f8f8f8;
+    justify-content: center;
 }
 
 footer {
     width: 100%; 
     position:relative;
-    left: 0;
-    right: 0;
     color: #f8f8f8; 
     max-width: 500px;
 }   
 #footerTextWrapper{
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding-bottom: 1rem;
+}
+
+.card{
+    background-color: #1c3a61;
+    border-radius: 10%;
+}
+.footer-ul{
+    width:100%;
+    margin-top: 1em;
+    justify-content: center;
 }

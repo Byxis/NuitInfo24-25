@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Footer.css'
 
 
@@ -7,11 +8,11 @@ function Footer() {
             <div className='footer-container'>
             <h2>Vous voulez en savoir plus ?</h2>
             Consultez nos autres pages pour découvrir des ressources supplémentaires et des initiatives locales que vous pouvez soutenir pour participer activement à la protection des océans !
-                Le Jeu Ludique : Un moyen ludique d'apprendre à protéger l'océan.
-                <ul>
-                    <li>Podcast Sensibilisation : Des discussions et interviews sur les solutions pour sauver nos océans.</li>
-                    <li>Carte Interactive : </li>
-                    <li> Contact : Pour échanger avec nous ou partager vos idées et initiatives.</li>
+                
+                <ul className='footer-ul'>
+                    <li className='card'><Link to="/jeu/carte-interactive">Carte Interactive</Link></li>
+                    <li className='card'><Link to="/solution">Des solution pour l'avenir</Link></li>
+                    <li className='card'><Link to="/a-propos">À Propos</Link></li>
                 </ul>
             </div>
             <div id="footerTextWrapper">
@@ -22,5 +23,7 @@ function Footer() {
         </div>
     );
 }
+                    
+                    
 
 export default Footer
