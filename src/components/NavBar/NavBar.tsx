@@ -23,6 +23,9 @@ function NavBar() {
                 <li>
                     <Link to="/a-propos">À propos</Link>
                 </li>
+                <li>
+                    <Link to="/interviews">Interviews</Link>
+                </li>
             </ul>
         </div>
     </nav>

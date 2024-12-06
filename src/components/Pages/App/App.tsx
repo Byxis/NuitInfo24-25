@@ -2,7 +2,7 @@ import GetQuestion from '../Quizpage/questions';
 import Quiz from '../Quizpage/Quiz';
 import './App.css'
 
-function App() {
+function App1() {
 
   return (
     <>
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App
+export default App1
