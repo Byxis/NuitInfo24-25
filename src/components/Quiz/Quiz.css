@@ -39,7 +39,7 @@ input[type="checkbox"] {
     margin-right: 8px;
     position: relative;
     top: -4px;
-    transition: background 0.2s, border-color 0.2s;
+    transition: background 0s, border-color 0s;
 }
   
 input[type="checkbox"]:checked {
@@ -76,13 +76,15 @@ input[type="checkbox"]:disabled {
     border-radius: 0px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
+    transition: background-color 0.s, transform 0s;
     font-family: 'MinecraftRegular', sans-serif;
+    box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, .1);
   }
   
   .submit-button:hover {
     background-color: #0056b3;
     transform: scale(1.05);
+    box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, .2);
   }
   
   .submit-button:active {
