@@ -1,0 +1,102 @@
+#grid-wrapper {
+    width: 100%;
+    display: grid ;
+    gap: 10px; 
+    padding: 20px;
+    --background-color: #ffffff; 
+    --text-color: #000000;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 250px);
+  }
+  
+  .dark-mode {
+    --background-color: #121212;
+    --text-color: #ffffff;
+  }
+
+  body {
+    background-color: var(--background-color); 
+    color: var(--text-color); 
+  }
+
+  .grid-item {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  #Coeur {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+    background-image: url(/Coeur.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #Poumons {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    background-image: url(/Poumons.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #SystemeImmunitaire {
+    grid-column: -3 / -2;
+    grid-row: 1 / 2;
+    
+    background-image: url(/SystemeImmunitaire.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #SystemeDigestif {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    background-image: url(/SystemeDigestif.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #Peau {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    background-image: url(/Peau.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #Sang {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-image: url(/Sang.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #Reins {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    background-image: url(/Reins.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #VaisseauxSanguins {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-image: url(/VaisseauxSanguins.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
