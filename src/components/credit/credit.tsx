@@ -1,3 +1,4 @@
+import Slots from "../Slots/Slots.tsx"
 import ClassicCard, { ClassicCardSquare } from "./Card/ClassicCard.tsx"
 import UserCard from "./Card/UserCard.tsx"
 import './credit.css'
@@ -32,6 +33,8 @@ function Credit() {
         <h1>Statut du Projet</h1>
         
       </div>
+
+      <Slots />
 
       </div>
     </div>

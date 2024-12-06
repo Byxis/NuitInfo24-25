@@ -77,28 +77,31 @@ function Slots() {
         }
     };
 
-    
+    const rick = () => {
+        location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    };
 
     return (
         <div className="UserInputWrapper">
+            <h1>Formulaire de Contact</h1>
             <div id="DropdownMenuCategoryWrapper">
                 <select id="DropdownMenu" value={selectedCategory} onChange={handleCategoryChange}>
-                    <option value="lowercase">Lowercase Letters</option>
-                    <option value="special">Special Characters</option>
+                    <option value="lowercase">Lettres</option>
+                    <option value="special">Caractères</option>
                     <option value="chiffres">Chiffres</option>
                 </select>
             </div>
             
             <div id="DisplayRNGResultWrapper">
-                <h1>Random Number</h1>
+                <h2>Nombre Aléatoire</h2>
                 <button id="TriggerRNGButton" 
-                        onClick={generateNumber}>Generate Number</button>
-                <p>{randomNumber !== null ? `Generated Number: ${randomNumber + 1}.` : "Click the button to generate a number!"}</p>
-                <p>{randomNumber !== null ? `Its corresponding Character is: ${selectedArray[randomNumber]}` : ""}</p>
+                        onClick={generateNumber}>Générateur de nombre</button>
+                <p>{randomNumber !== null ? `Nombre généré : ${randomNumber + 1}.` : "Appuyez sur le bouton pour générer un nombre !"}</p>
+                <p>{randomNumber !== null ? `Ce qui correspond au caractère : ${selectedArray[randomNumber]}` : ""}</p>
             </div>
             
 
-            <button id="SendRNGResultToInputFieldButton" onClick={appendCharacter}>Send character to field!</button>
+            <button id="SendRNGResultToInputFieldButton" onClick={appendCharacter}>Envoyer le caractère dans la zone !</button>
 
 
             <div id="UserInputFieldWrapper">
@@ -108,8 +111,10 @@ function Slots() {
                     value={typedString}
                 />
             </div>
-
+            
+            <button id="myButton" onClick={rick} class="float-left submit-button" >S'abonner a la newsletter !</button>
         </div>
+
     );
 };
 
