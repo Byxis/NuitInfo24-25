@@ -1,20 +1,21 @@
-import './CourantsOceaniques.css'
+import './Surface.css'
 
-function CourantsOceaniques() {
+function Surface() {
 
   return (
     <>
       <div>
-        <a href="https://fr.wikipedia.org/wiki/Courant_marin">
-          <img src={"../src/assets/CourantsOceaniques.png"} className="CourantsOceaniques" />
+        <a href="https://fr.wikipedia.org/wiki/Surface">
+          <img src={"../src/assets/Surface.jpg"} className="Surface" />
         </a>
       </div>
-      <h1>CourantsOceaniques</h1>
+      <h1>Surface</h1>
       <p className="read">
-        Click
+      Fonction humaine : La peau est une barrière qui protège contre les éléments extérieurs et régule la température corporelle.
+      Equivalent océanique : La surface de l'océan régule les échanges thermiques et chimiques entre l'eau et l'atmosphère, influençant le climat mondial.
       </p>
     </>
   )
 }
 
-export default CourantsOceaniques
+export default Surface

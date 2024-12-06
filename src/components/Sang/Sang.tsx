@@ -10,10 +10,7 @@ function Sang() {
             <img src={"../src/assets/Sang.svg"} className="Sang" />
           </Link>
       </div>
-      <h1>Sang</h1>      
-      <p className="read">
-        Click on the Sang !
-      </p>
+      <h1>Sang</h1>   
     </>
   )
 }

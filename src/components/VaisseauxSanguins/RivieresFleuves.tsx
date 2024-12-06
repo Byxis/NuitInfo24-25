@@ -1,4 +1,4 @@
-import './RivieresFleuves .css'
+import './RivieresFleuves.css'
 
 function RivieresFleuves () {
 
@@ -6,12 +6,13 @@ function RivieresFleuves () {
     <>
       <div>
         <a href="https://fr.wikipedia.org/wiki/Cours_d'eau">
-          <img src={"../src/assets/RivieresFleuves.png"} className="RivieresFleuves" />
+          <img src={"../src/assets/RivieresFleuves.jpg"} className="RivieresFleuves" />
         </a>
       </div>
       <h1>RivieresFleuves </h1>
       <p className="read">
-        Click
+      Fonction humaine : Les vaisseaux sanguins transportent le sang dans tout le corps.
+      Equivalent océanique : Les rivières et les fleuves apportent l'eau douce, les sédiments et les nutriments à l'océan, influençant sa composition chimique et biologique.
       </p>
     </>
   )

@@ -10,10 +10,7 @@ function Coeur() {
             <img src={"../src/assets/Coeur.svg"} className="Coeur" />
           </Link>
       </div>
-      <h1>Coeur</h1>      
-      <p className="read">
-        Click on the Heart !
-      </p>
+      <h1>Coeur</h1>
     </>
   )
 }

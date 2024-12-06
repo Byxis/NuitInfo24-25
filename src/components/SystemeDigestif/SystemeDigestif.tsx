@@ -10,10 +10,7 @@ function SystemeDigestif() {
             <img src={"../src/assets/SystemeDigestif.svg"} className="SystemeDigestif" />
           </Link>
       </div>
-      <h1>SystemeDigestif</h1>      
-      <p className="read">
-        Click on the SystemeDigestif !
-      </p>
+      <h1>SystemeDigestif</h1>   
     </>
   )
 }

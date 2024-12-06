@@ -10,10 +10,7 @@ function Peau() {
             <img src={"../src/assets/Peau.svg"} className="Peau" />
           </Link>
       </div>
-      <h1>Peau</h1>      
-      <p className="read">
-        Click on the Peau !
-      </p>
+      <h1>Peau</h1>    
     </>
   )
 }

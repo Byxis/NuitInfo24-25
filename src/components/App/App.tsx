@@ -10,6 +10,14 @@ import SystemeDigestif from '../SystemeDigestif/SystemeDigestif.tsx'
 import ReseauTrophique from '../SystemeDigestif/ReseauTrophique.tsx'
 import SystemeImmunitaire from '../SystemeImmunitaire/SystemeImmunitaire.tsx'
 import RecifCorallien from '../SystemeImmunitaire/RecifCorallien.tsx'
+import Peau from '../Peau/Peau.tsx'
+import Reins from '../Reins/Reins.tsx'
+import Surface from '../Peau/Surface.tsx'
+import Mangroves from '../Reins/Mangroves.tsx'
+import Sang from '../Sang/Sang.tsx'
+import Eau from '../Sang/Eau.tsx'
+import VaisseauxSanguins from '../VaisseauxSanguins/VaisseauxSanguins.tsx'
+import RivieresFleuves from '../VaisseauxSanguins/RivieresFleuves.tsx'
 
 
 function App() {
@@ -27,6 +35,14 @@ function App() {
           <Route path="/ReseauTrophique" element={<ReseauTrophique />} />
           <Route path="/SystemeImmunitaire" element={<SystemeImmunitaire />} />
           <Route path="/RecifCorallien" element={<RecifCorallien />} />
+          <Route path="/Peau" element={<Peau />} />
+          <Route path="/Surface" element={<Surface />} />
+          <Route path="/Reins" element={<Reins />} />
+          <Route path="/Mangroves" element={<Mangroves />} />
+          <Route path="/Sang" element={<Sang />} />
+          <Route path="/Eau" element={<Eau />} />
+          <Route path="/VaisseauxSanguins" element={<VaisseauxSanguins />} />
+          <Route path="/RivieresFleuves" element={<RivieresFleuves />} />
         </Route>
       </Routes>
     </Router>

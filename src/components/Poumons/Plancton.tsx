@@ -11,7 +11,8 @@ function Plancton() {
       </div>
       <h1>Plancton</h1>
       <p className="read">
-        Click
+      Fonction humaine : Les poumons permettent les échanges d'oxygène et de dioxyde de carbone avec l'air.
+      Equivalent océanique : Le phytoplancton, par photosynthèse, produit plus de 50 % de l'oxygène que nous respirons, tout en absorbant une grande quantité de CO2.
       </p>
     </>
   )

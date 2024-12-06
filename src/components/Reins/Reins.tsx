@@ -10,10 +10,7 @@ function Reins() {
             <img src={"../src/assets/Reins.svg"} className="Reins" />
           </Link>
       </div>
-      <h1>Reins</h1>      
-      <p className="read">
-        Click on the Reins !
-      </p>
+      <h1>Reins</h1>     
     </>
   )
 }

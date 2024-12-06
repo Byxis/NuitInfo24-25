@@ -10,10 +10,7 @@ function VaisseauxSanguins() {
             <img src={"../src/assets/VaisseauxSanguins.svg"} className="VaisseauxSanguins" />
           </Link>
       </div>
-      <h1>VaisseauxSanguins</h1>      
-      <p className="read">
-        Click on the VaisseauxSanguins !
-      </p>
+      <h1>VaisseauxSanguins</h1>   
     </>
   )
 }

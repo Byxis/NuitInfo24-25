@@ -11,7 +11,8 @@ function RecifCorallien() {
       </div>
       <h1>RecifCorallien</h1>
       <p className="read">
-        Click
+      Fonction humaine : Le système immunitaire protège le corps contre les infections et les maladies.
+      Equivalent océanique : La biodiversité marine agit comme un "système immunitaire", maintenant la santé et l'équilibre des écosystèmes face aux perturbations (pollution, changements climatiques).
       </p>
     </>
   )

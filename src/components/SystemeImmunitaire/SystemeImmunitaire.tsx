@@ -10,10 +10,7 @@ function SystemeImmunitaire() {
             <img src={"../src/assets/SystemeImmunitaire.svg"} className="CSystemeImmunitaireoeur" />
           </Link>
       </div>
-      <h1>SystemeImmunitaire</h1>      
-      <p className="read">
-        Click on the SystemeImmunitaire !
-      </p>
+      <h1>SystemeImmunitaire</h1>    
     </>
   )
 }
