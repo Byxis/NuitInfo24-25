@@ -9,7 +9,6 @@
   }
   
   .grid-item {
-    background-color: #4caf50;
     color: white;
     text-align: center;
     padding: 20px;
@@ -22,42 +21,72 @@
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 
-    background-color: #af4c4c;
+    background-image: url(/Coeur.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   #Poumons {
     grid-column: 2 / 4;
     grid-row: 2 / 3;
-
+    background-image: url(/Poumons.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   #SystemeImmunitaire {
-    background-color: #3e1111;
     grid-column: -3 / -2;
     grid-row: 1 / 2;
+    
+    background-image: url(/SystemeImmunitaire.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   #SystemeDigestif {
     grid-column: 2 / 4;
     grid-row: 3 / 4;
+    background-image: url(/SystemeDigestif.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   #Peau {
     grid-column: 4 / 5;
     grid-row: 2 / 3;
+    background-image: url(/Peau.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   #Sang {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+    background-image: url(/Sang.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   #Reins {
     grid-column: 4 / 5;
     grid-row: 3 / 4;
+    background-image: url(/Reins.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   #VaisseauxSanguins {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    background-image: url(/VaisseauxSanguins.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
