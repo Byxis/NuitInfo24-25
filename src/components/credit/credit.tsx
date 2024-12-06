@@ -8,7 +8,7 @@ function Credit() {
   return (
     <div className="Credits">
       <div className="Developpers">
-        <h1> Devs du projet -</h1>
+        <h1 className="para"> Devs du projet -</h1>
         <UserCard username="MaxbanCh"> </UserCard>
         <UserCard username="Byxis"> </UserCard>
         <UserCard username="yaya1541"> </UserCard>
@@ -19,7 +19,7 @@ function Credit() {
       <div >
 
       <div className="contexte">
-        <h1>Evènement</h1>
+        <h1 className="para">Evènement</h1>
         <ClassicCard name="Nuit de l'Info" website="https://www.nuitdelinfo.com" image="https://www.nuitdelinfo.com/materiel_communication/logo/N2i_logo-color.png" desc="Organisteur de l'évènement"></ClassicCard>
         <ClassicCardSquare name="Race for Water" website="https://www.raceforwater.org/fr/" image="https://upload.wikimedia.org/wikipedia/commons/3/3f/Race_for_Water_Foundation_-_Logo.svg" 
         desc="Fondation partenaire de l'évènement"></ClassicCardSquare>

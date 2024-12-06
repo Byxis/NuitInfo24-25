@@ -9,8 +9,8 @@ export const ClassicCard: React.FC<CardProps> = ({ name, website, image, desc })
   return (
     <div className="card">
       <img src={image} alt={`Logo de ${name}`} style={{ width: '120px', borderRadius: '50%' }} />
-      <h3><a href={website}>{name}</a></h3>
-      <h2>{desc}</h2>
+      <h3 className="para"><a href={website}>{name}</a></h3>
+      <h2 className="para">{desc}</h2>
     </div>
   );
 };
@@ -22,8 +22,8 @@ export const ClassicCardSquare: React.FC<CardProps> = ({ name, website, image, d
         <img src={image} alt={`Logo de ${name}`} style={{ width: '150px', borderRadius: '10%' }} />
 
         </div>
-        <h3><a href={website}>{name}</a></h3>
-        <h2>{desc}</h2>
+        <h3 className="para"><a href={website}>{name}</a></h3>
+        <h2 className="para">{desc}</h2>
       </div>
     );
   };

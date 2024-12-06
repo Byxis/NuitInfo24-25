@@ -83,7 +83,7 @@ function Slots() {
 
     return (
         <div className="UserInputWrapper">
-            <h1>Formulaire de Contact</h1>
+            <h1 className='para'>Formulaire de Contact</h1>
             <div id="DropdownMenuCategoryWrapper">
                 <select id="DropdownMenu" value={selectedCategory} onChange={handleCategoryChange}>
                     <option value="lowercase">Lettres</option>
@@ -93,11 +93,11 @@ function Slots() {
             </div>
             
             <div id="DisplayRNGResultWrapper">
-                <h2>Nombre Aléatoire</h2>
+                <h2 className='para'>Nombre Aléatoire</h2>
                 <button id="TriggerRNGButton" 
                         onClick={generateNumber}>Générateur de nombre</button>
-                <p>{randomNumber !== null ? `Nombre généré : ${randomNumber + 1}.` : "Appuyez sur le bouton pour générer un nombre !"}</p>
-                <p>{randomNumber !== null ? `Ce qui correspond au caractère : ${selectedArray[randomNumber]}` : ""}</p>
+                <p className='para'>{randomNumber !== null ? `Nombre généré : ${randomNumber + 1}.` : "Appuyez sur le bouton pour générer un nombre !"}</p>
+                <p className='para'>{randomNumber !== null ? `Ce qui correspond au caractère : ${selectedArray[randomNumber]}` : ""}</p>
             </div>
             
 
