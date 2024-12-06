@@ -103,7 +103,7 @@ function Slots() {
 
             <div id="UserInputFieldWrapper">
                 <input id="UserInputField"
-                    type="text"
+                    type="email"
                     onKeyDown={handleKeyDown}
                     value={typedString}
                 />
