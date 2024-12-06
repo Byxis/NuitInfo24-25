@@ -7,7 +7,7 @@ function SystemeDigestif() {
     <>
       <div>
           <Link to="/ReseauTrophique">
-            <img src={"../src/assets/SystemeDigestif.jpg"} className="SystemeDigestif" />
+            <img src={"../src/assets/SystemeDigestif.svg"} className="SystemeDigestif" />
           </Link>
       </div>
       <h1>SystemeDigestif</h1>      

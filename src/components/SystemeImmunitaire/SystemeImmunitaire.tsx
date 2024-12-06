@@ -7,7 +7,7 @@ function SystemeImmunitaire() {
     <>
       <div>
           <Link to="/RecifCorallien">
-            <img src={"../src/assets/SystemeImmunitaire.jpg"} className="CSystemeImmunitaireoeur" />
+            <img src={"../src/assets/SystemeImmunitaire.svg"} className="CSystemeImmunitaireoeur" />
           </Link>
       </div>
       <h1>SystemeImmunitaire</h1>      
