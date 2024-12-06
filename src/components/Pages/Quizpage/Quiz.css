@@ -11,17 +11,17 @@
     margin: 2em;
 }
 
-h2 {
+.quiz-h2 {
     font-family: 'MinecraftRegular', sans-serif;
     text-align: center;
 }
 
-p {
+.quiz-p {
     font-family: 'MinecraftRegular', sans-serif;
     font-size: 12px;
 }
 
-label {
+.quiz-label {
     font-family: 'MinecraftRegular', sans-serif;
     font-size: 13px;
     display: flex;
@@ -30,7 +30,7 @@ label {
     word-wrap: break-word;
 }
 
-input[type="checkbox"] {
+.quiz-i input[type="checkbox"] {
     appearance: none;
     width: 20px;
     height: 20px;
@@ -42,17 +42,17 @@ input[type="checkbox"] {
     transition: background 0s, border-color 0s;
 }
   
-input[type="checkbox"]:checked {
+.quiz-i input[type="checkbox"]:checked {
     background: #007BFF;
     border-color: #0056b3;
 }
   
-input[type="checkbox"]:hover {
+.quiz-i input[type="checkbox"]:hover {
     outline: none;
     border-color: #0056b3;
 }
   
-input[type="checkbox"]:disabled {
+.quiz-i input[type="checkbox"]:disabled {
     cursor: not-allowed;
     background: #111213;
     border-color: #0e0e0f;
@@ -98,7 +98,7 @@ input[type="checkbox"]:disabled {
   }
 
 
-h3{
+ .quiz-h3{
     font-family: 'MinecraftRegular', sans-serif;
 }
 .close-button {
@@ -118,10 +118,10 @@ h3{
 }
 
 .explication {
-    color:#00801a;
+    color:#82e696;
 }
   
-body {
+.quiz-body {
     background-image: url(/pixel_background.png);
     background-repeat: no-repeat;
     background-position: center;
