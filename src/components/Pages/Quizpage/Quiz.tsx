@@ -4,7 +4,7 @@ import QuizInterface from './Interface/QuizInterface.tsx'
 
 function Quiz(quizInterface: QuizInterface) 
 {
-    
+
     const checkboxRefs = useRef<Array<HTMLInputElement | null>>([]);
     const [score, setScore] = useState(0);
     const [isButtonDisabled, setIsButtonDisabled] = useState(false);
@@ -46,7 +46,7 @@ function Quiz(quizInterface: QuizInterface)
             if(currentText === null) return;
             const score = parseInt(currentText.split(':')[1].trim(), 10) + newScore;
         
-            scoreElement.textContent = `Score : ${newScore}`;
+            scoreElement.textContent = `Score : ${score}`;
         }
 
         const explicationsElement = document.getElementById(identidiant);
@@ -56,15 +56,15 @@ function Quiz(quizInterface: QuizInterface)
         }
     };
 
-    const [isVisible, setIsVisible] = useState(true);
+    //const [isVisible, setIsVisible] = useState(true);
 
-    const handleClose = () => {
-        setIsVisible(false);
-    };
+    //const handleClose = () => {
+    //    setIsVisible(false);
+    //};
 
-    if (!isVisible) {
-        return null;
-    }
+    //if (!isVisible) {
+    //    return null;
+    //}
     //Pas d'utilisation du bouton close finalement
     //<button onClick={handleClose} className="close-button">Close</button>
 
