@@ -1,6 +1,6 @@
 /* Style global pour la barre de navigation */
 nav {
-    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Dégradé bleu océan */
+    background: #1d203f;
     padding: 10px 20px;
     position: fixed; /* Fixe la nav en haut de la page */
     top: 0;
@@ -8,6 +8,7 @@ nav {
     width: 100%; /* Prend toute la largeur de l'écran */
     border-bottom: 2px solid rgba(255, 255, 255, 0.3); /* Ligne sous la nav */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour ajouter de la profondeur */
+    z-index:1;
   }
   
   /* Conteneur pour la liste de navigation */

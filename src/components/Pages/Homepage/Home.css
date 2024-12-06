@@ -1,16 +1,17 @@
 h1{
     position: relative;
     font-size: 32px;
-    font-family: Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     font-weight:lighter;
     text-align:center;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    background: url(../../assets/ocean2.jpg);
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    background: url(../../../assets/ocean.jpg);
     background-size: 100%;
     background-position: 70%;
 }
 .container{
-    margin: 2rem;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 5%;
 }

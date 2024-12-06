@@ -1,7 +1,8 @@
 import { Route, HashRouter as Router, Routes } from 'react-router-dom'
 import './Router.css'
-import Layout from './Layout'
-import Home from '../App/Homepage/Home'
+import Layout from '../Layout'
+import Home from '../Pages/Homepage/Home'
+import Solution from '../Pages/Solutionpage/Solution'
 
 
 
@@ -13,6 +14,7 @@ function AppRouter() {
       <Routes>
         <Route element={<Layout/>}>
           <Route path="/" element={<Home/>}/>
+          <Route path="/solution" element={<Solution/>}/>
         </Route>
       </Routes>
     </Router>
