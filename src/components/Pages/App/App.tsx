@@ -7,11 +7,17 @@ function App() {
   return (
     <>
       <div className='quiz-body'>
+        <Quiz {...GetQuestion(0)} />
+        <Quiz {...GetQuestion(1)} />
+        <Quiz {...GetQuestion(2)} />
+        <Quiz {...GetQuestion(3)} />
+        <Quiz {...GetQuestion(4)} />
+        <Quiz {...GetQuestion(5)} />
+        <Quiz {...GetQuestion(6)} />
+        <Quiz {...GetQuestion(7)} />
         <div >
-          <p className="quiz-p" id="score">Score : 0</p>
+          <h1 className="quiz-h2" id="score">Score : 0</h1>
         </div>
-        <Quiz {...GetQuestion(0)} />
-        <Quiz {...GetQuestion(0)} />
       </div>
     </>
   );
