@@ -6,7 +6,7 @@ function Layout(){
     return(
         <>
             <header>
-                <NavBar brandName="MyWebsite" navItems={["Home", "About", "Contact"]} />
+                <NavBar/>
             </header>
             <main>
                 <Outlet/>

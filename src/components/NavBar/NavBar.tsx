@@ -9,10 +9,13 @@ function NavBar() {
         <div>
             <ul>
                 <li>
-                    <Link to="/test">Test</Link>
+                    <Link to="/">Accueil</Link>
                 </li>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/jeu-ludique-ocean">Jeu</Link>
+                </li>
+                <li>
+                    <Link to="/a-propos">À propos</Link>
                 </li>
             </ul>
         </div>
