@@ -4,6 +4,7 @@ import QuizInterface from './Interface/QuizInterface.tsx'
 
 function Quiz(quizInterface: QuizInterface) 
 {
+    
     const checkboxRefs = useRef<Array<HTMLInputElement | null>>([]);
     const [score, setScore] = useState(0);
     const [isButtonDisabled, setIsButtonDisabled] = useState(false);
