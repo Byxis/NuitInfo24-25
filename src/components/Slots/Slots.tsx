@@ -114,7 +114,6 @@ function Slots() {
             
             <button id="myButton" onClick={rick} class="float-left submit-button" >S'abonner a la newsletter !</button>
         </div>
-
     );
 };
 

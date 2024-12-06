@@ -7,4 +7,19 @@
     max-height: 300px;
     display: inline-block;
   }
-  
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover .hover-image {
+    transform: scale(1.05);
+}
