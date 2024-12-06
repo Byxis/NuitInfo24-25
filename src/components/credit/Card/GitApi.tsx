@@ -5,6 +5,7 @@ export interface GitHubUser {
   avatar_url: string;
 }
 
+
 export async function GitApi(username: string): Promise<GitHubUser | null> {
   try {
     const response = await axios.get(`https://api.github.com/users/${username}`, {
@@ -19,4 +20,9 @@ export async function GitApi(username: string): Promise<GitHubUser | null> {
     console.error(`Erreur lors de la récupération de l'utilisateur GitHub: ${error}`);
     return null;
   }
+}
+
+export async function GitStatProj() {
+
+
 }
