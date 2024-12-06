@@ -112,7 +112,7 @@ function Slots() {
                 />
             </div>
             
-            <button id="myButton" onClick={rick} class="float-left submit-button" >S'abonner a la newsletter !</button>
+            <button id="myButton" onClick={rick} className="float-left submit-button" >S'abonner a la newsletter !</button>
         </div>
     );
 };
