@@ -6,7 +6,7 @@ import './credit.css'
 function Credit() {
 
   return (
-    <div classname="Credits">
+    <div className="Credits">
       <div className="Developpers">
         <h1> Devs du projet -</h1>
         <UserCard username="MaxbanCh"> </UserCard>
@@ -19,18 +19,18 @@ function Credit() {
       <div >
 
       <div className="contexte">
-        <h1>Evenement</h1>
-        <ClassicCard name="Nuit de l'Info" website="https://www.nuitdelinfo.com" image="https://www.nuitdelinfo.com/materiel_communication/logo/N2i_logo-color.png" desc="Organisteur de l'evenement"></ClassicCard>
+        <h1>Evènement</h1>
+        <ClassicCard name="Nuit de l'Info" website="https://www.nuitdelinfo.com" image="https://www.nuitdelinfo.com/materiel_communication/logo/N2i_logo-color.png" desc="Organisteur de l'évènement"></ClassicCard>
         <ClassicCardSquare name="Race for Water" website="https://www.raceforwater.org/fr/" image="https://upload.wikimedia.org/wikipedia/commons/3/3f/Race_for_Water_Foundation_-_Logo.svg" 
-        desc="Fondation partenaire de l'evenement"></ClassicCardSquare>
-        
+        desc="Fondation partenaire de l'évènement"></ClassicCardSquare>
         <ClassicCardSquare 
         name="Polytech Montpellier" website="https://polytech.umontpellier.fr/" image="https://www.polytech.umontpellier.fr/images/logo_entete.png" 
-        desc="Notre organisateur local de la nuit de l'info"></ClassicCardSquare>
+        desc="Notre organisateur local de La Nuit de l'info"></ClassicCardSquare>
       </div>
-      
+      </div>
+
       <Slots />
-      </div>
+
     </div>
     
   )

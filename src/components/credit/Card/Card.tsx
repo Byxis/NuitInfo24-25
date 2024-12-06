@@ -1,5 +1,3 @@
-import GitApi from "./GitApi.tsx"
-
 interface CardProps {
   user: string; // Typage pour user (ajustez selon vos besoins)
   name: string; // Typage pour name

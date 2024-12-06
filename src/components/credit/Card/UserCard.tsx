@@ -3,6 +3,7 @@ import { GitApi, GitHubUser } from './GitApi.tsx'
 
 interface CardProps {
   username: string;
+  children?: React.ReactNode; // Ajoutez cette ligne pour permettre le passage d'enfants
 }
 
 const UserCard: React.FC<CardProps> = ({ username }) => {
