@@ -3,13 +3,23 @@
     display: grid ;
     gap: 10px; 
     padding: 20px;
-    background-color: #f8f8f8;
+    --background-color: #ffffff; 
+    --text-color: #000000;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 250px);
   }
   
+  .dark-mode {
+    --background-color: #121212;
+    --text-color: #ffffff;
+  }
+
+  body {
+    background-color: var(--background-color); 
+    color: var(--text-color); 
+  }
+
   .grid-item {
-    color: white;
     text-align: center;
     padding: 20px;
     border-radius: 8px;

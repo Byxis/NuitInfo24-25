@@ -18,12 +18,32 @@ import Sang from '../Sang/Sang.tsx'
 import Eau from '../Sang/Eau.tsx'
 import VaisseauxSanguins from '../VaisseauxSanguins/VaisseauxSanguins.tsx'
 import RivieresFleuves from '../VaisseauxSanguins/RivieresFleuves.tsx'
+import { useState } from 'react'
 
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
 
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+
+    if (!darkMode) {
+      document.documentElement.classList.add('dark-mode');
+    } else {
+      document.documentElement.classList.remove('dark-mode');
+    }
+  };
   return (
-    <Router>
+    <><div className="App">
+      <header>
+        <h1>{darkMode ? 'Mode Sombre' : 'Mode Clair'}</h1>
+        <button onClick={toggleDarkMode}>
+          {darkMode ? 'Passer au mode clair' : 'Passer au mode sombre'}
+        </button>
+      </header>
+      <main>
+      </main>
+    </div><Router>
       <Routes>
         <Route element = {<Layout/>}>
           <Route path="/" element={<CarteInteractive />} />
@@ -46,6 +66,7 @@ function App() {
         </Route>
       </Routes>
     </Router>
+    </>
   )
 }
 

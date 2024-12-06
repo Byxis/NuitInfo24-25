@@ -8,7 +8,9 @@ import Reins from '../Reins/Reins'
 import Sang from '../Sang/Sang'
 import VaisseauxSanguins from '../VaisseauxSanguins/VaisseauxSanguins'
 
+
 const Grid = () => {
+  
   return (
     <div id="grid-wrapper">
         <div className="grid-item" id="Coeur"> <Coeur /> </div>
