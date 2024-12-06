@@ -1,0 +1,11 @@
+#root {
+  font-family: "Monserrat";
+  text-align: center;
+  font-size: large;
+  background-color: #1d203f;
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url(../../assets/font/Montserrat-Regular.ttf);
+}
