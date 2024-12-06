@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-      <div>
-        <div>
-          <p id="score">Score : 0</p>
+      <div className='quiz-body'>
+        <div >
+          <p className="quiz-p" id="score">Score : 0</p>
         </div>
         <Quiz {...GetQuestion(0)} />
         <Quiz {...GetQuestion(0)} />
