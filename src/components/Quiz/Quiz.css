@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'MinecraftRegular';
+    src: url('/fonts/Minecraftia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 2em;
+}
+
+h2 {
+    font-family: 'MinecraftRegular', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'MinecraftRegular', sans-serif;
+    font-size: 12px;
+}
+
+label {
+    font-family: 'MinecraftRegular', sans-serif;
+    font-size: 13px;
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007BFF;
+    cursor: pointer;
+    margin-right: 8px;
+    position: relative;
+    top: -4px;
+    transition: background 0.2s, border-color 0.2s;
+}
+  
+input[type="checkbox"]:checked {
+    background: #007BFF;
+    border-color: #0056b3;
+}
+  
+input[type="checkbox"]:hover {
+    outline: none;
+    border-color: #0056b3;
+}
+  
+input[type="checkbox"]:disabled {
+    cursor: not-allowed;
+    background: #111213;
+    border-color: #0e0e0f;
+}
+
+.quiz-container {
+    position: relative;
+    border: 2px solid #f9f0f0;
+    padding: 20px;
+    width: 50em;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    background-color: #00000085;
+}
+.submit-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'MinecraftRegular', sans-serif;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .submit-button:active {
+    background-color: #003d80;
+    transform: scale(0.95);
+  }
+  
+  .submit-button:disabled {
+    cursor: not-allowed;
+    background-color: #0e0e0f;
+  }
+
+
+h3{
+    font-family: 'MinecraftRegular', sans-serif;
+}
+.close-button {
+    font-family: 'MinecraftRegular', sans-serif;    
+    position: absolute;
+    border-radius: 0px;;
+    top: 10px;  
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.explication {
+    color:#00801a;
+}
+  
+body {
+    background-image: url(/pixel_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+  }
+  
