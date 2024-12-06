@@ -12,7 +12,13 @@ function NavBar() {
                     <Link to="/">Accueil</Link>
                 </li>
                 <li>
-                    <Link to="/jeu-ludique-ocean">Jeu</Link>
+                    <Link to="/jeu/carte-interactive">Carte Interactive</Link>
+                </li>
+                <li>
+                    <Link to="/jeu/quiz">Quiz</Link>
+                </li>
+                <li>
+                    <Link to="/solution">Solution</Link>
                 </li>
                 <li>
                     <Link to="/a-propos">À propos</Link>
